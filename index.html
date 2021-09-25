@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lógica de programação e algortmos - Resoluções de um exercício</title>
+</head>
+<body>
+  <script type="text/javascript">
+    // resolução da letra A
+    var clientesA = new Array(1000);
+    console.log(clientesA.length);
+
+    function ordenaNum(a, b) {
+      return a-b;
+    }
+
+    clientesA.sort(ordenaNum);
+    for (i=0; i<clientesA.length; i++) {
+      document.write(clientesA[i] + " "); }
+
+    // resolução da letra B
+    clientesA.indexOf(elementoDePesquisa, [pontoInicial = 0]);
+    console.log(clientesA.indexOf());
+
+    // resolução da letra C
+    var clientesB = new Array(1000);
+    console.log(clientesB.length);
+
+    const found = clientesB.find(element => element == indiceEncontradoAnteriormente);
+    console.log(found);
+  </script>
+</body>
+</html>
